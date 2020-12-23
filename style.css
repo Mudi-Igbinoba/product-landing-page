@@ -1,0 +1,139 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+#features p {
+  margin-top: -20px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (min-width: 400px) {
+  #header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .logo {
+    width: 60vw;
+  }
+  
+  #nav-bar {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+#nav-bar {
+  margin: 5px;
+  text-align: center;
+}
+
+#header-img {
+  width: 100%;
+  height: 100%;  
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link {
+  line-height: 1.5;
+}
+
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  background-color: #eee;
+}
+
+main {
+  margin-top: 120px;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+
+input[type="submit"]:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+#pricing  button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+}
+
+#pricing  button:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+.trombone {
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin: auto;
+  background-color: #ddd;
+}
+
+#pricing {
+  text-align: center;
+}
+
+footer {
+  text-align: right;
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+ .trombone header {
+  background-color: #eee;
+}
